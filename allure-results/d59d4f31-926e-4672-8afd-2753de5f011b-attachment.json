@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#dh_logo\"}\n  (Session info: chrome=90.0.4430.93)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00A3C013+2474003]\n\tOrdinal0 [0x009D29C1+2042305]\n\tOrdinal0 [0x008E2F68+1060712]\n\tOrdinal0 [0x0090D8A4+1235108]\n\tOrdinal0 [0x00937232+1405490]\n\tOrdinal0 [0x0092684A+1337418]\n\tOrdinal0 [0x009355CB+1398219]\n\tOrdinal0 [0x009266DB+1337051]\n\tOrdinal0 [0x00903427+1192999]\n\tOrdinal0 [0x009042EE+1196782]\n\tOrdinal0 [0x00904279+1196665]\n\tGetHandleVerifier [0x00BC96FC+1590332]\n\tGetHandleVerifier [0x00C78614+2306900]\n\tGetHandleVerifier [0x00AC9E93+543699]\n\tGetHandleVerifier [0x00AC92CE+540686]\n\tOrdinal0 [0x009D86BA+2066106]\n\tOrdinal0 [0x009DD1C8+2085320]\n\tOrdinal0 [0x009DD308+2085640]\n\tOrdinal0 [0x009E67F3+2123763]\n\tBaseThreadInitThunk [0x75ACFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77947A4E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77947A1E+238]\n"
+}
