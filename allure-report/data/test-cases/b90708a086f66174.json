@@ -1,0 +1,124 @@
+{
+  "uid" : "b90708a086f66174",
+  "name" : "Then the user needs to see the text \"404 Error: File not found :-(\" on the error page",
+  "fullName" : "The error button: Verify if the user is on the error page with the 404 HTTP response code.Then the user needs to see the text \"404 Error: File not found :-(\" on the error page",
+  "historyId" : "a5f424e29b079b8198e94d59538e3b9e",
+  "time" : {
+    "start" : 1619915298399,
+    "stop" : 1619915298545,
+    "duration" : 146
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619915298404,
+        "stop" : 1619915298485,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e5038fda19db209c",
+        "name" : "Request",
+        "source" : "e5038fda19db209c.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "a3f0966a5c12c80e",
+        "name" : "Response",
+        "source" : "a3f0966a5c12c80e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/399a4470-fa2f-48dd-aec1-e7796d5e66dc/text",
+      "time" : {
+        "start" : 1619915298490,
+        "stop" : 1619915298539,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1bcd3f0fc21d62c9",
+        "name" : "Response",
+        "source" : "1bcd3f0fc21d62c9.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The error button: Verify if the user is on the error page with the 404 HTTP response code"
+  }, {
+    "name" : "testClass",
+    "value" : "The error button: Verify if the user is on the error page with the 404 HTTP response code"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user needs to see the text \"404 Error: File not found :-(\" on the error page"
+  }, {
+    "name" : "package",
+    "value" : "The error button: Verify if the user is on the error page with the 404 HTTP response code"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6cd602ba527d428f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914918359,
+        "stop" : 1619914918547,
+        "duration" : 188
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b90708a086f66174.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

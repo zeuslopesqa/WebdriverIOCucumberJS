@@ -1,0 +1,189 @@
+{
+  "uid" : "e29ea1f7b07ef485",
+  "name" : "Given the user is on the form page",
+  "fullName" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed..Given the user is on the form page",
+  "historyId" : "785c6d2679fbeedaeec78ddb21dbb52f",
+  "time" : {
+    "start" : 1619914921065,
+    "stop" : 1619914921240,
+    "duration" : 175
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619914921066,
+        "stop" : 1619914921086,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1619914921071,
+          "stop" : 1619914921077,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7872b45b543edc8b",
+          "name" : "Request",
+          "source" : "7872b45b543edc8b.json",
+          "type" : "application/json",
+          "size" : 45
+        }, {
+          "uid" : "4310b8b4dfc60927",
+          "name" : "Response",
+          "source" : "4310b8b4dfc60927.json",
+          "type" : "application/json",
+          "size" : 58
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "e15f7ea0192ce62e",
+        "name" : "Request",
+        "source" : "e15f7ea0192ce62e.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "2bb0e41e8a3c1c5e",
+        "name" : "Response",
+        "source" : "2bb0e41e8a3c1c5e.json",
+        "type" : "application/json",
+        "size" : 1023
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1619914921089,
+        "stop" : 1619914921133,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f1924982592f3e65",
+        "name" : "Request",
+        "source" : "f1924982592f3e65.json",
+        "type" : "application/json",
+        "size" : 49
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619914921144,
+        "stop" : 1619914921158,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6376fd342b6693cb",
+        "name" : "Request",
+        "source" : "6376fd342b6693cb.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "68ea529a6454c8cd",
+        "name" : "Response",
+        "source" : "68ea529a6454c8cd.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/2a81b9df-1a07-4e2a-91e3-2f5c61fb45ee/click",
+      "time" : {
+        "start" : 1619914921161,
+        "stop" : 1619914921240,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "260e78063fd85263",
+      "name" : "Response",
+      "source" : "260e78063fd85263.json",
+      "type" : "application/json",
+      "size" : 93
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "testClass",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "testMethod",
+    "value" : "Given the user is on the form page"
+  }, {
+    "name" : "package",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e29ea1f7b07ef485.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

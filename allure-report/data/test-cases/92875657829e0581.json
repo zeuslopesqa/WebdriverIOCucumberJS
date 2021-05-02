@@ -1,0 +1,171 @@
+{
+  "uid" : "92875657829e0581",
+  "name" : "When the user fill the inputbox with the John value and click on the submit button",
+  "fullName" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed..When the user fill the inputbox with the John value and click on the submit button",
+  "historyId" : "6c351856b71dffa9821dc344fed84b5f",
+  "time" : {
+    "start" : 1619914919417,
+    "stop" : 1619914919989,
+    "duration" : 572
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619914919420,
+        "stop" : 1619914919441,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6654cd25eac60a43",
+        "name" : "Request",
+        "source" : "6654cd25eac60a43.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "86656a112884d06a",
+        "name" : "Response",
+        "source" : "86656a112884d06a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/ad436250-d1bb-4343-bb53-eaf6194f829a/clear",
+      "time" : {
+        "start" : 1619914919446,
+        "stop" : 1619914919517,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/ad436250-d1bb-4343-bb53-eaf6194f829a/value",
+      "time" : {
+        "start" : 1619914919524,
+        "stop" : 1619914919618,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4d3e211a554686fb",
+        "name" : "Request",
+        "source" : "4d3e211a554686fb.json",
+        "type" : "application/json",
+        "size" : 20
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619914919618,
+        "stop" : 1619914919642,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e1a3ec04a2b40389",
+        "name" : "Request",
+        "source" : "e1a3ec04a2b40389.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "eb10294f41fa827d",
+        "name" : "Response",
+        "source" : "eb10294f41fa827d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/ab594b00-80bd-48d6-9e59-d221ed6fa68b/click",
+      "time" : {
+        "start" : 1619914919647,
+        "stop" : 1619914919988,
+        "duration" : 341
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "testClass",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "testMethod",
+    "value" : "When the user fill the inputbox with the John value and click on the submit button"
+  }, {
+    "name" : "package",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92875657829e0581.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

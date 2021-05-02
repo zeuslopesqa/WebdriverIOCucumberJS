@@ -1,0 +1,97 @@
+{
+  "uid" : "6ed96b401872af98",
+  "name" : "Given the user is on the home",
+  "fullName" : "The error button: Verify if the user is on the error page with the 404 HTTP response code.Given the user is on the home",
+  "historyId" : "2d01a74f2a4d20afc3406b885e45645c",
+  "time" : {
+    "start" : 1619915295224,
+    "stop" : 1619915295242,
+    "duration" : 18
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1619915295228,
+        "stop" : 0,
+        "duration" : -1619915295228
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "371fa3b29d6b9cb6",
+        "name" : "Request",
+        "source" : "371fa3b29d6b9cb6.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The error button: Verify if the user is on the error page with the 404 HTTP response code"
+  }, {
+    "name" : "testClass",
+    "value" : "The error button: Verify if the user is on the error page with the 404 HTTP response code"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given the user is on the home"
+  }, {
+    "name" : "package",
+    "value" : "The error button: Verify if the user is on the error page with the 404 HTTP response code"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "22a94514c514ea6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914916224,
+        "stop" : 1619914916267,
+        "duration" : 43
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ed96b401872af98.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

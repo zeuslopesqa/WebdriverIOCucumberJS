@@ -1,0 +1,124 @@
+{
+  "uid" : "a6771314a38d15fa",
+  "name" : "Then the user needs to see the text \"Simple Form Submission\"",
+  "fullName" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr..Then the user needs to see the text \"Simple Form Submission\"",
+  "historyId" : "a7e17fcc70af1cd578f42fcabde343a3",
+  "time" : {
+    "start" : 1619915297550,
+    "stop" : 1619915297703,
+    "duration" : 153
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619915297556,
+        "stop" : 1619915297601,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "19da4e30a61e6b70",
+        "name" : "Request",
+        "source" : "19da4e30a61e6b70.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "3218595f17ee0684",
+        "name" : "Response",
+        "source" : "3218595f17ee0684.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/fc89b32c-826c-4fdf-bc46-a5f0f31f059e/text",
+      "time" : {
+        "start" : 1619915297608,
+        "stop" : 1619915297697,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fac06d7360e3ea76",
+        "name" : "Response",
+        "source" : "fac06d7360e3ea76.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr."
+  }, {
+    "name" : "testClass",
+    "value" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr."
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user needs to see the text \"Simple Form Submission\""
+  }, {
+    "name" : "package",
+    "value" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7618b4b2b89c0b0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914919062,
+        "stop" : 1619914919211,
+        "duration" : 149
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6771314a38d15fa.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

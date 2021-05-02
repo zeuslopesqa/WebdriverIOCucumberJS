@@ -1,0 +1,124 @@
+{
+  "uid" : "27f85688c9f36d7d",
+  "name" : "And the status of the home button is active",
+  "fullName" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr..And the status of the home button is active",
+  "historyId" : "b7fdc66eb2e02c492594be8c5bc9cc86",
+  "time" : {
+    "start" : 1619915298146,
+    "stop" : 1619915298254,
+    "duration" : 108
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619915298148,
+        "stop" : 1619915298211,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4484a0dce408818",
+        "name" : "Request",
+        "source" : "e4484a0dce408818.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "1c893c83c02b59cc",
+        "name" : "Response",
+        "source" : "1c893c83c02b59cc.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/c33c753b-eb9e-444e-9756-35cc674f91a8/attribute/class",
+      "time" : {
+        "start" : 1619915298215,
+        "stop" : 1619915298252,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b1ca6cda83da0a9",
+        "name" : "Response",
+        "source" : "2b1ca6cda83da0a9.json",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "testClass",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "testMethod",
+    "value" : "And the status of the home button is active"
+  }, {
+    "name" : "package",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "112e660289cc0980",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914919203,
+        "stop" : 1619914919316,
+        "duration" : 113
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27f85688c9f36d7d.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

@@ -1,0 +1,103 @@
+{
+  "uid" : "5813e8b9037d0d47",
+  "name" : "And the title of the error page has to be \"UI Testing Site\"",
+  "fullName" : "The error button: Verify if the user is on the error page with the 404 HTTP response code.And the title of the error page has to be \"UI Testing Site\"",
+  "historyId" : "e6107d3a676c4f343f590e3d8311662f",
+  "time" : {
+    "start" : 1619915298585,
+    "stop" : 1619915298636,
+    "duration" : 51
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1619915298587,
+        "stop" : 1619915298618,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3f104ce7ec1d9dc2",
+        "name" : "Response",
+        "source" : "3f104ce7ec1d9dc2.json",
+        "type" : "application/json",
+        "size" : 1026
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "5a258ffe38554086",
+      "name" : "Response",
+      "source" : "5a258ffe38554086.json",
+      "type" : "application/json",
+      "size" : 31
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The error button: Verify if the user is on the error page with the 404 HTTP response code"
+  }, {
+    "name" : "testClass",
+    "value" : "The error button: Verify if the user is on the error page with the 404 HTTP response code"
+  }, {
+    "name" : "testMethod",
+    "value" : "And the title of the error page has to be \"UI Testing Site\""
+  }, {
+    "name" : "package",
+    "value" : "The error button: Verify if the user is on the error page with the 404 HTTP response code"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e7edf7f81c24a7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914918558,
+        "stop" : 1619914918631,
+        "duration" : 73
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5813e8b9037d0d47.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

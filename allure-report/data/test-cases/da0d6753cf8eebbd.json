@@ -1,0 +1,114 @@
+{
+  "uid" : "da0d6753cf8eebbd",
+  "name" : "Then the text \"Welcome to the Docler Holding QA Department\" is displayed in a <h1> element",
+  "fullName" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr..Then the text \"Welcome to the Docler Holding QA Department\" is displayed in a <h1> element",
+  "historyId" : "3c3b027bb34c40afe8ece3f8355c5ffb",
+  "time" : {
+    "start" : 1619914918892,
+    "stop" : 1619914919016,
+    "duration" : 124
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619914918897,
+        "stop" : 1619914918947,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "11aa9c335c5fa748",
+        "name" : "Request",
+        "source" : "11aa9c335c5fa748.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "d5930319b4a48737",
+        "name" : "Response",
+        "source" : "d5930319b4a48737.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/edccb47f-e78a-4b36-b8ec-8a851bb0952d/text",
+      "time" : {
+        "start" : 1619914918954,
+        "stop" : 1619914919009,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cf59cad4c74c07bb",
+        "name" : "Response",
+        "source" : "cf59cad4c74c07bb.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "testClass",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the text \"Welcome to the Docler Holding QA Department\" is displayed in a <h1> element"
+  }, {
+    "name" : "package",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da0d6753cf8eebbd.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

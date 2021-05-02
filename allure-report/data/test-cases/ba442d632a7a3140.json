@@ -1,0 +1,120 @@
+{
+  "uid" : "ba442d632a7a3140",
+  "name" : "And this current page should display the company logo",
+  "fullName" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed..And this current page should display the company logo",
+  "historyId" : "ea0f28cc0d5e366b97c8bdae6389e5ed",
+  "time" : {
+    "start" : 1619914920071,
+    "stop" : 1619914920120,
+    "duration" : 49
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619914920072,
+        "stop" : 1619914920092,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bf4f4dfa3e4a5392",
+        "name" : "Request",
+        "source" : "bf4f4dfa3e4a5392.json",
+        "type" : "application/json",
+        "size" : 52
+      }, {
+        "uid" : "32f0ba737f0b0194",
+        "name" : "Response",
+        "source" : "32f0ba737f0b0194.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1619914920098,
+        "stop" : 1619914920119,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "afb63f77a6f7fc79",
+        "name" : "Request",
+        "source" : "afb63f77a6f7fc79.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "6f2590478c399ebc",
+        "name" : "Response",
+        "source" : "6f2590478c399ebc.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "testClass",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "testMethod",
+    "value" : "And this current page should display the company logo"
+  }, {
+    "name" : "package",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba442d632a7a3140.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

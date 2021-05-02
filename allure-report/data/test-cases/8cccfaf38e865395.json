@@ -1,0 +1,174 @@
+{
+  "uid" : "8cccfaf38e865395",
+  "name" : "And there are a inputbox and a submit button",
+  "fullName" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed..And there are a inputbox and a submit button",
+  "historyId" : "c1c36bad7afd80da5e19f53f1972aa7e",
+  "time" : {
+    "start" : 1619915298980,
+    "stop" : 1619915299061,
+    "duration" : 81
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619915298982,
+        "stop" : 1619915299000,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a784eae3e862bf6",
+        "name" : "Request",
+        "source" : "a784eae3e862bf6.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "1045a3d1b4a7aa52",
+        "name" : "Response",
+        "source" : "1045a3d1b4a7aa52.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1619915299006,
+        "stop" : 1619915299026,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2378cc53a0b57f12",
+        "name" : "Request",
+        "source" : "2378cc53a0b57f12.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "2d574e20fbb0972",
+        "name" : "Response",
+        "source" : "2d574e20fbb0972.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619915299026,
+        "stop" : 1619915299042,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "729294036eeb029b",
+        "name" : "Request",
+        "source" : "729294036eeb029b.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "9e4c19ea8ba63ee0",
+        "name" : "Response",
+        "source" : "9e4c19ea8ba63ee0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1619915299044,
+        "stop" : 1619915299060,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "211318261488a744",
+        "name" : "Request",
+        "source" : "211318261488a744.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "75423c7c24cffc48",
+        "name" : "Response",
+        "source" : "75423c7c24cffc48.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "testClass",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "testMethod",
+    "value" : "And there are a inputbox and a submit button"
+  }, {
+    "name" : "package",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8cccfaf38e865395.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

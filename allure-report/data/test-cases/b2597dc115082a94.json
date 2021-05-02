@@ -1,0 +1,124 @@
+{
+  "uid" : "b2597dc115082a94",
+  "name" : "And the status of the home button is active",
+  "fullName" : "UI Testing button: Verify if the user is redirected to the home page.And the status of the home button is active",
+  "historyId" : "3d65afca893b24de71722c92af4fcb8c",
+  "time" : {
+    "start" : 1619915298152,
+    "stop" : 1619915298239,
+    "duration" : 87
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619915298155,
+        "stop" : 1619915298188,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "55f575787b396f94",
+        "name" : "Request",
+        "source" : "55f575787b396f94.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "82b94aefe13cea83",
+        "name" : "Response",
+        "source" : "82b94aefe13cea83.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/302bd625-031e-4e76-806f-dc1d9b1fc12f/attribute/class",
+      "time" : {
+        "start" : 1619915298198,
+        "stop" : 1619915298238,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5c66eb4ba4e7ec10",
+        "name" : "Response",
+        "source" : "5c66eb4ba4e7ec10.json",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "UI Testing button: Verify if the user is redirected to the home page"
+  }, {
+    "name" : "testClass",
+    "value" : "UI Testing button: Verify if the user is redirected to the home page"
+  }, {
+    "name" : "testMethod",
+    "value" : "And the status of the home button is active"
+  }, {
+    "name" : "package",
+    "value" : "UI Testing button: Verify if the user is redirected to the home page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5fa37b648c822f94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914918989,
+        "stop" : 1619914919149,
+        "duration" : 160
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2597dc115082a94.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

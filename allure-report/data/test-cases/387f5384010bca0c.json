@@ -1,0 +1,124 @@
+{
+  "uid" : "387f5384010bca0c",
+  "name" : "And the status of the form button is active",
+  "fullName" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr..And the status of the form button is active",
+  "historyId" : "7fcb7af63325a6c67e9c20589b251317",
+  "time" : {
+    "start" : 1619915297703,
+    "stop" : 1619915297832,
+    "duration" : 129
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619915297707,
+        "stop" : 1619915297787,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bdb6d0e8c0e69805",
+        "name" : "Request",
+        "source" : "bdb6d0e8c0e69805.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "9190d820b417d087",
+        "name" : "Response",
+        "source" : "9190d820b417d087.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/ae007e53-d84b-4ba9-9891-b6a2e5196d97/attribute/class",
+      "time" : {
+        "start" : 1619915297794,
+        "stop" : 1619915297831,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c5b9062b1688ba0",
+        "name" : "Response",
+        "source" : "c5b9062b1688ba0.json",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr."
+  }, {
+    "name" : "testClass",
+    "value" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr."
+  }, {
+    "name" : "testMethod",
+    "value" : "And the status of the form button is active"
+  }, {
+    "name" : "package",
+    "value" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c8bdff3bf08447c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914919211,
+        "stop" : 1619914919320,
+        "duration" : 109
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "387f5384010bca0c.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

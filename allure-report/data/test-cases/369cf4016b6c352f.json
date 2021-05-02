@@ -1,0 +1,97 @@
+{
+  "uid" : "369cf4016b6c352f",
+  "name" : "Given the user is on the home",
+  "fullName" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr..Given the user is on the home",
+  "historyId" : "2078bf2ec754d44c46b99ea45a09e903",
+  "time" : {
+    "start" : 1619915295257,
+    "stop" : 1619915295294,
+    "duration" : 37
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1619915295276,
+        "stop" : 0,
+        "duration" : -1619915295276
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "13fc8bfe54974eac",
+        "name" : "Request",
+        "source" : "13fc8bfe54974eac.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr."
+  }, {
+    "name" : "testClass",
+    "value" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr."
+  }, {
+    "name" : "testMethod",
+    "value" : "Given the user is on the home"
+  }, {
+    "name" : "package",
+    "value" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b78b3a43c72c1617",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914916658,
+        "stop" : 1619914916684,
+        "duration" : 26
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "369cf4016b6c352f.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

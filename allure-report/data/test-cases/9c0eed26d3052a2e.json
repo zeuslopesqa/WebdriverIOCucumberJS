@@ -1,0 +1,97 @@
+{
+  "uid" : "9c0eed26d3052a2e",
+  "name" : "And the title has to be \"UI Testing Site\"",
+  "fullName" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr..And the title has to be \"UI Testing Site\"",
+  "historyId" : "e617aabf2b33aec66ecdf9c0158063a",
+  "time" : {
+    "start" : 1619915298416,
+    "stop" : 1619915298461,
+    "duration" : 45
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1619915298417,
+        "stop" : 1619915298460,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "513264462844096b",
+        "name" : "Response",
+        "source" : "513264462844096b.json",
+        "type" : "application/json",
+        "size" : 17
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "testClass",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "testMethod",
+    "value" : "And the title has to be \"UI Testing Site\""
+  }, {
+    "name" : "package",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2e3170c2d1fb9c59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914919440,
+        "stop" : 1619914919461,
+        "duration" : 21
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9c0eed26d3052a2e.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

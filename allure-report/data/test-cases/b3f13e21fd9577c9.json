@@ -1,0 +1,82 @@
+{
+  "uid" : "b3f13e21fd9577c9",
+  "name" : "",
+  "fullName" : "The error button: Verify if the user is on the error page with the 404 HTTP response code.",
+  "historyId" : "950966359992a3920b9563014d33861d",
+  "time" : {
+    "start" : 1619915298636,
+    "stop" : 1619915298637,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The error button: Verify if the user is on the error page with the 404 HTTP response code"
+  }, {
+    "name" : "testClass",
+    "value" : "The error button: Verify if the user is on the error page with the 404 HTTP response code"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "The error button: Verify if the user is on the error page with the 404 HTTP response code"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1e7b3102b804a71d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619915295213,
+        "stop" : 1619915295223,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "3e8fe364e4e823fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914918631,
+        "stop" : 1619914918632,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "fdad3f7e85aea1be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914916204,
+        "stop" : 1619914916223,
+        "duration" : 19
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b3f13e21fd9577c9.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

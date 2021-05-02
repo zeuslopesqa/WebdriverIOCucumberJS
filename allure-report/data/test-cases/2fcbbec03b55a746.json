@@ -1,0 +1,82 @@
+{
+  "uid" : "2fcbbec03b55a746",
+  "name" : "",
+  "fullName" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr..",
+  "historyId" : "87bd2466fc88cbdc2eb9248adf974e66",
+  "time" : {
+    "start" : 1619915298461,
+    "stop" : 1619915298461,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "testClass",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "db4d05e353d5c3c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619915295215,
+        "stop" : 1619915295225,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "3a534f285a8ba82e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914919461,
+        "stop" : 1619914919462,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "55b6c14252eecd18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914916266,
+        "stop" : 1619914916286,
+        "duration" : 20
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2fcbbec03b55a746.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

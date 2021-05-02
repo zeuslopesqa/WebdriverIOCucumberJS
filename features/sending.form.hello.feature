@@ -1,5 +1,5 @@
 Feature: Form page and the form
-
+    Here are the functional and non-functional requirements covered by this test case
     REQ-UI-01 The Title should be "UI Testing Site" on every site
     REQ-UI-02 The Company Logo should be visible on every site
     REQ-UI-11 On the Form page, a form should be visible with one input box and one submit button

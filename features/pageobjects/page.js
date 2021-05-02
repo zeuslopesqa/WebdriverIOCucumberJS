@@ -5,22 +5,22 @@ module.exports = class Page{
    */
    open (){
       return browser.url(`http://uitest.duodecadits.com/`);
-   }
+    }
 
    get searchTitleOfThePage(){        
       var title = driver.executeScript("return document.title;");
       return title;
-  }
+    }
 
   checkTitleOfThePage(){
       return this.searchTitleOfThePage;
-  }
+    }
 
-  get logoCompany(){
+    get logoCompany(){
       return $('#dh_logo');
-  }
+    }
 
-  checkLogoPage(){
+    checkLogoPage(){
      return this.logoCompany;
-  }
+    }
 }

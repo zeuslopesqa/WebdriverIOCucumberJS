@@ -22,7 +22,7 @@ exports.config = {
     // If you are calling `wdio` from an NPM script (see https://docs.npmjs.com/cli/run-script),
     // then the current working directory is where your `package.json` resides, so `wdio`
     // will be called from there.
-    //
+    // 
     specs: [
         './features/**/*.feature'
     ],
@@ -135,7 +135,7 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    //reporters: ['spec','junit'],
+    // reporters: ['spec','junit'],
     reporters: [
         [
             'allure',
@@ -149,9 +149,16 @@ exports.config = {
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
         // <string[]> (file/dir) require files before executing features
-        require: ['./features/step-definitions/steps.js'],
-        // ['./features/step-definitions/page.titles.steps.js', './features/step-definitions/company.logo.steps.js'
-        // , './features/step-definitions/nav.home.btn.steps.js'],
+        require: 
+        [
+        './features/step-definitions/general.steps.js',
+        './features/step-definitions/form.steps.js',
+        './features/step-definitions/home.steps.js', 
+        './features/step-definitions/topmenu.steps.js',        
+        './features/step-definitions/hello.steps.js',
+        './features/step-definitions/error.steps.js'
+        ],
+
         // <boolean> show full backtrace for errors
         backtrace: false,
         // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
@@ -175,7 +182,8 @@ exports.config = {
         // <number> timeout for step definitions
         timeout: 60000,
         // <boolean> Enable this config to treat undefined definitions as warnings.
-        ignoreUndefinedDefinitions: false
+        ignoreUndefinedDefinitions: false,
+        bail: 0
     },
     
     //

@@ -1,0 +1,181 @@
+{
+  "uid" : "74e3232a409085a3",
+  "name" : "When the user fill the inputbox with the Sophia value and click on the submit button",
+  "fullName" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed..When the user fill the inputbox with the Sophia value and click on the submit button",
+  "historyId" : "cd2608734c7f1f5aa194be4880b1db1e",
+  "time" : {
+    "start" : 1619915299095,
+    "stop" : 1619915299466,
+    "duration" : 371
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619915299096,
+        "stop" : 1619915299109,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cecf3ac11c519169",
+        "name" : "Request",
+        "source" : "cecf3ac11c519169.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "7ef94bf5c5c55506",
+        "name" : "Response",
+        "source" : "7ef94bf5c5c55506.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/e6442cfc-bdbb-43e0-83b6-54077b63a048/clear",
+      "time" : {
+        "start" : 1619915299111,
+        "stop" : 1619915299156,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/e6442cfc-bdbb-43e0-83b6-54077b63a048/value",
+      "time" : {
+        "start" : 1619915299157,
+        "stop" : 1619915299211,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8b9c104b49ae2ee",
+        "name" : "Request",
+        "source" : "c8b9c104b49ae2ee.json",
+        "type" : "application/json",
+        "size" : 22
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619915299211,
+        "stop" : 1619915299223,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "948b3d5d02dd9dda",
+        "name" : "Request",
+        "source" : "948b3d5d02dd9dda.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "b2f7cc3bcd85926f",
+        "name" : "Response",
+        "source" : "b2f7cc3bcd85926f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/e30d9ba2-2fd2-4e53-ad5e-abe8a3d4f8e0/click",
+      "time" : {
+        "start" : 1619915299226,
+        "stop" : 1619915299466,
+        "duration" : 240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "testClass",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "testMethod",
+    "value" : "When the user fill the inputbox with the Sophia value and click on the submit button"
+  }, {
+    "name" : "package",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "806efdde315b336",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914920582,
+        "stop" : 1619914920975,
+        "duration" : 393
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74e3232a409085a3.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

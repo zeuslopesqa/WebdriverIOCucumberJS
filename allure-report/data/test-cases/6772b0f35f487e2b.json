@@ -1,0 +1,232 @@
+{
+  "uid" : "6772b0f35f487e2b",
+  "name" : "And there are a inputbox and a submit button",
+  "fullName" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed..And there are a inputbox and a submit button",
+  "historyId" : "c1c36bad7afd80da5e19f53f1972aa7e",
+  "time" : {
+    "start" : 1619915300351,
+    "stop" : 1619915300403,
+    "duration" : 52
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619915300352,
+        "stop" : 1619915300366,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5837c971634bf15f",
+        "name" : "Request",
+        "source" : "5837c971634bf15f.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "bc8e9d5aeaff320b",
+        "name" : "Response",
+        "source" : "bc8e9d5aeaff320b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1619915300369,
+        "stop" : 1619915300380,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "252e9d95ea831400",
+        "name" : "Request",
+        "source" : "252e9d95ea831400.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "1787e50867851b6c",
+        "name" : "Response",
+        "source" : "1787e50867851b6c.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619915300380,
+        "stop" : 1619915300391,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "20e01f1ccef7343c",
+        "name" : "Request",
+        "source" : "20e01f1ccef7343c.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "512b1c8d29a87d24",
+        "name" : "Response",
+        "source" : "512b1c8d29a87d24.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1619915300392,
+        "stop" : 1619915300403,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b8388b668370ea8",
+        "name" : "Request",
+        "source" : "2b8388b668370ea8.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "14d805d7356cf2c8",
+        "name" : "Response",
+        "source" : "14d805d7356cf2c8.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "testClass",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "testMethod",
+    "value" : "And there are a inputbox and a submit button"
+  }, {
+    "name" : "package",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "62b68d6267f3110e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619915299723,
+        "stop" : 1619915299772,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "8cccfaf38e865395",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619915298980,
+        "stop" : 1619915299061,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "13fc145e5b63774e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619915297309,
+        "stop" : 1619915297568,
+        "duration" : 259
+      }
+    }, {
+      "uid" : "73b090a9756a7426",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914921960,
+        "stop" : 1619914922035,
+        "duration" : 75
+      }
+    }, {
+      "uid" : "638a1d8e16695bed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914921240,
+        "stop" : 1619914921293,
+        "duration" : 53
+      }
+    }, {
+      "uid" : "4d98399aec073839",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914920465,
+        "stop" : 1619914920545,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "99385aeccb0e7f74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914919135,
+        "stop" : 1619914919326,
+        "duration" : 191
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6772b0f35f487e2b.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

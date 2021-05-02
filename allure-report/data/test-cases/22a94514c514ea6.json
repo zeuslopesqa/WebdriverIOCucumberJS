@@ -1,0 +1,87 @@
+{
+  "uid" : "22a94514c514ea6",
+  "name" : "Given the user is on the home",
+  "fullName" : "The error button: Verify if the user is on the error page with the 404 HTTP response code.Given the user is on the home",
+  "historyId" : "2d01a74f2a4d20afc3406b885e45645c",
+  "time" : {
+    "start" : 1619914916224,
+    "stop" : 1619914916267,
+    "duration" : 43
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1619914916228,
+        "stop" : 0,
+        "duration" : -1619914916228
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "acd717c1abda26ab",
+        "name" : "Request",
+        "source" : "acd717c1abda26ab.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The error button: Verify if the user is on the error page with the 404 HTTP response code"
+  }, {
+    "name" : "testClass",
+    "value" : "The error button: Verify if the user is on the error page with the 404 HTTP response code"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given the user is on the home"
+  }, {
+    "name" : "package",
+    "value" : "The error button: Verify if the user is on the error page with the 404 HTTP response code"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22a94514c514ea6.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

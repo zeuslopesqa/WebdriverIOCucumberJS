@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "6a5147f910ae121437bce97bcfe9b7cd",
+    "name" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 13
+    }
+  }, {
+    "uid" : "5fc0c47ffce22e5e1579ee6431b04015",
+    "name" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "171a542fcc42d3a1bf660310e2b351d2",
+    "name" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "f3bc7b296e48283575d227a156b23e3d",
+    "name" : "UI Testing button: Verify if the user is redirected to the home page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "e3534164c96c0898cc83e489f1dd87b7",
+    "name" : "The error button: Verify if the user is on the error page with the 404 HTTP response code",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
+}

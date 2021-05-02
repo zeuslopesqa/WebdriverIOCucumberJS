@@ -1,5 +1,5 @@
 Feature: Home button 
-
+    Here are the functional and non-functional requirements covered by this test case
     REQ-UI-01 The Title should be "UI Testing Site" on every site
     REQ-UI-02 The Company Logo should be visible on every site
     REQ-UI-03 When I click on the Home button, I should get navigated to the Home page

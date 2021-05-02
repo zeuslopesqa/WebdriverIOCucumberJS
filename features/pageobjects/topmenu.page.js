@@ -1,37 +1,19 @@
 const Page = require('./page');
+const Helper = require('../utilities/helpers')
 
 class TopMenuPage extends Page{
     open(path){
         super.open();
     }
-
-    menuOption(page){
-        switch(page){
-            case('home'):
-                return $('#home');
-                break;
-            case('form'):
-                return $('#form');
-                break;
-            case('error'):
-                return $('#error');
-                break;
-            case('ui testing'):
-                return $('#home');
-                break;
-            default:
-                return $('#home');
-                break;
-        }
-    }
-    
+    //Here I call the function menuOption, declared in the file helpers.js
+    //This function helps me to select the correct button to be clicked on the top menu
     async clickMenuOption(page){
-        await (await this.menuOption(page)).click();
-   } 
+        await (await Helper.menuOption(page)).click();
+    } 
 
    btnStatus(){
     return browser.$('.active');
-}
+    }
 
 }
 module.exports = new TopMenuPage();

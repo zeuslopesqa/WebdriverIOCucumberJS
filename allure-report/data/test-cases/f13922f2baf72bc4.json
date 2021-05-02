@@ -1,0 +1,81 @@
+{
+  "uid" : "f13922f2baf72bc4",
+  "name" : "",
+  "fullName" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr..",
+  "historyId" : "ad8d96d8a139f5f0b91722cea88e17e7",
+  "time" : {
+    "start" : 1619915295230,
+    "stop" : 1619915295256,
+    "duration" : 26
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1619915295237,
+        "stop" : 0,
+        "duration" : -1619915295237
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr."
+  }, {
+    "name" : "testClass",
+    "value" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr."
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f13922f2baf72bc4.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

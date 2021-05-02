@@ -1,0 +1,120 @@
+{
+  "uid" : "70aebdf18c8f1366",
+  "name" : "And this current page should display the company logo",
+  "fullName" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr..And this current page should display the company logo",
+  "historyId" : "d20e90c5c6a4aa897f9b71764445ea42",
+  "time" : {
+    "start" : 1619914919016,
+    "stop" : 1619914919203,
+    "duration" : 187
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619914919019,
+        "stop" : 1619914919132,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8323fc054fe604a1",
+        "name" : "Request",
+        "source" : "8323fc054fe604a1.json",
+        "type" : "application/json",
+        "size" : 52
+      }, {
+        "uid" : "5b7a976d0b1475d7",
+        "name" : "Response",
+        "source" : "5b7a976d0b1475d7.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1619914919141,
+        "stop" : 1619914919202,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6b728130a96efa4a",
+        "name" : "Request",
+        "source" : "6b728130a96efa4a.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "99df5cbc8f92ce06",
+        "name" : "Response",
+        "source" : "99df5cbc8f92ce06.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "testClass",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "testMethod",
+    "value" : "And this current page should display the company logo"
+  }, {
+    "name" : "package",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70aebdf18c8f1366.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

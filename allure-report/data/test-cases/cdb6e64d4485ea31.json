@@ -1,0 +1,178 @@
+{
+  "uid" : "cdb6e64d4485ea31",
+  "name" : "",
+  "fullName" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed..",
+  "historyId" : "86706f87826216c1530c269e68c89da2",
+  "time" : {
+    "start" : 1619915300817,
+    "stop" : 1619915300817,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "testClass",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eb84f6f749b42097",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619915300209,
+        "stop" : 1619915300211,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "bedb2a739d7d9a01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619915300193,
+        "stop" : 1619915300193,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9042738638d37d74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619915299551,
+        "stop" : 1619915299553,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "9e353b735c8fc116",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619915299534,
+        "stop" : 1619915299534,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8dcaeb412f958cde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619915298654,
+        "stop" : 1619915298659,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "4665eca9265d5334",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619915298588,
+        "stop" : 1619915298589,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a94e741880854496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619915295217,
+        "stop" : 1619915295228,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "abfcc15467a0c8f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914922531,
+        "stop" : 1619914922532,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4d111228a59b76d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914921772,
+        "stop" : 1619914921774,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "c4e26b3b6de284d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914921753,
+        "stop" : 1619914921753,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2f4854c3992a93f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914921061,
+        "stop" : 1619914921065,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "75a21d47452d804a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914921045,
+        "stop" : 1619914921045,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "811bcc5acd3a6a06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914920173,
+        "stop" : 1619914920178,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "d746e137f37d994f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914920138,
+        "stop" : 1619914920139,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "21e464ef14c8a197",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914916740,
+        "stop" : 1619914916755,
+        "duration" : 15
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cdb6e64d4485ea31.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

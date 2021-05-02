@@ -1,0 +1,401 @@
+[ {
+  "uid" : "ebe7feebacc90b67",
+  "name" : "And this current page should display the company logo",
+  "time" : {
+    "start" : 1619915298239,
+    "stop" : 1619915298431,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca4fe566876a2081",
+  "name" : "When the user fill the inputbox with the John value and click on the submit button",
+  "time" : {
+    "start" : 1619915297690,
+    "stop" : 1619915298429,
+    "duration" : 739
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "369cf4016b6c352f",
+  "name" : "Given the user is on the home",
+  "time" : {
+    "start" : 1619915295257,
+    "stop" : 1619915295294,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b90708a086f66174",
+  "name" : "Then the user needs to see the text \"404 Error: File not found :-(\" on the error page",
+  "time" : {
+    "start" : 1619915298399,
+    "stop" : 1619915298545,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af249ae280f9b23f",
+  "name" : "And the title has to be \"UI Testing Site\"",
+  "time" : {
+    "start" : 1619915300810,
+    "stop" : 1619915300817,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27f85688c9f36d7d",
+  "name" : "And the status of the home button is active",
+  "time" : {
+    "start" : 1619915298146,
+    "stop" : 1619915298254,
+    "duration" : 108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fcb794cc79dc0f4",
+  "name" : "Then the user should see the Hello Sophia! message",
+  "time" : {
+    "start" : 1619915299466,
+    "stop" : 1619915299501,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fcbbec03b55a746",
+  "name" : "",
+  "time" : {
+    "start" : 1619915298461,
+    "stop" : 1619915298461,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16375b957eae9589",
+  "name" : "Then the user should see the Hello Charlie! message",
+  "time" : {
+    "start" : 1619915300120,
+    "stop" : 1619915300159,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "730ccd055b030568",
+  "name" : "And this error page should not display the company logo",
+  "time" : {
+    "start" : 1619915298545,
+    "stop" : 1619915298585,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "387f5384010bca0c",
+  "name" : "And the status of the form button is active",
+  "time" : {
+    "start" : 1619915297703,
+    "stop" : 1619915297832,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac0cec8968199631",
+  "name" : "",
+  "time" : {
+    "start" : 1619915298431,
+    "stop" : 1619915298432,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c9670926459fe8",
+  "name" : "And the title has to be \"UI Testing Site\"",
+  "time" : {
+    "start" : 1619915297922,
+    "stop" : 1619915298013,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d2d219de3a60a0f",
+  "name" : "And this current page should display the company logo",
+  "time" : {
+    "start" : 1619915300785,
+    "stop" : 1619915300810,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6771314a38d15fa",
+  "name" : "Then the user needs to see the text \"Simple Form Submission\"",
+  "time" : {
+    "start" : 1619915297550,
+    "stop" : 1619915297703,
+    "duration" : 153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea740e375e071794",
+  "name" : "When the user fill the inputbox with the Emily value and click on the submit button",
+  "time" : {
+    "start" : 1619915300425,
+    "stop" : 1619915300753,
+    "duration" : 328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "374eb57c285ed440",
+  "name" : "And the text \"This site is dedicated to perform some exercises and demonstrate automated web testing.\" is displayed in a <p> element",
+  "time" : {
+    "start" : 1619915298254,
+    "stop" : 1619915298415,
+    "duration" : 161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23c79cd5e24ffa71",
+  "name" : "And this current page should display the company logo",
+  "time" : {
+    "start" : 1619915297939,
+    "stop" : 1619915298146,
+    "duration" : 207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3f13e21fd9577c9",
+  "name" : "",
+  "time" : {
+    "start" : 1619915298636,
+    "stop" : 1619915298637,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66017e1eeee42302",
+  "name" : "When the user clicks on the uitesting button",
+  "time" : {
+    "start" : 1619915297622,
+    "stop" : 1619915298001,
+    "duration" : 379
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdb6e64d4485ea31",
+  "name" : "",
+  "time" : {
+    "start" : 1619915300817,
+    "stop" : 1619915300817,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9e21bafadd6a1b4",
+  "name" : "When the user fill the inputbox with the Charlie value and click on the submit button",
+  "time" : {
+    "start" : 1619915299795,
+    "stop" : 1619915300120,
+    "duration" : 325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f66352f3227670c",
+  "name" : "And this current page should display the company logo",
+  "time" : {
+    "start" : 1619915297832,
+    "stop" : 1619915297922,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74e3232a409085a3",
+  "name" : "When the user fill the inputbox with the Sophia value and click on the submit button",
+  "time" : {
+    "start" : 1619915299095,
+    "stop" : 1619915299466,
+    "duration" : 371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41664dbb116c5bc4",
+  "name" : "Given the user is on the form page",
+  "time" : {
+    "start" : 1619915295223,
+    "stop" : 1619915297622,
+    "duration" : 2399
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2597dc115082a94",
+  "name" : "And the status of the home button is active",
+  "time" : {
+    "start" : 1619915298152,
+    "stop" : 1619915298239,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78ecee73c6b11b88",
+  "name" : "Given the user is on the form page",
+  "time" : {
+    "start" : 1619915300211,
+    "stop" : 1619915300351,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2da497832c0777c2",
+  "name" : "Then the text \"Welcome to the Docler Holding QA Department\" is displayed in a <h1> element",
+  "time" : {
+    "start" : 1619915298001,
+    "stop" : 1619915298152,
+    "duration" : 151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fe960a87752f2da",
+  "name" : "Then the user should see the Hello Emily! message",
+  "time" : {
+    "start" : 1619915300753,
+    "stop" : 1619915300785,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c80449fcdec250ba",
+  "name" : "Then the text \"Welcome to the Docler Holding QA Department\" is displayed in a <h1> element",
+  "time" : {
+    "start" : 1619915297798,
+    "stop" : 1619915297939,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1156753e898b1ee3",
+  "name" : "When the user clicks on the error button",
+  "time" : {
+    "start" : 1619915295242,
+    "stop" : 1619915298399,
+    "duration" : 3157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "701740103a8d58aa",
+  "name" : "",
+  "time" : {
+    "start" : 1619915298013,
+    "stop" : 1619915298014,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7199e137e93b3cd",
+  "name" : "Then the user should see the Hello John! message",
+  "time" : {
+    "start" : 1619915298429,
+    "stop" : 1619915298514,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ed96b401872af98",
+  "name" : "Given the user is on the home",
+  "time" : {
+    "start" : 1619915295224,
+    "stop" : 1619915295242,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c0eed26d3052a2e",
+  "name" : "And the title has to be \"UI Testing Site\"",
+  "time" : {
+    "start" : 1619915298416,
+    "stop" : 1619915298461,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6772b0f35f487e2b",
+  "name" : "And there are a inputbox and a submit button",
+  "time" : {
+    "start" : 1619915300351,
+    "stop" : 1619915300403,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5813e8b9037d0d47",
+  "name" : "And the title of the error page has to be \"UI Testing Site\"",
+  "time" : {
+    "start" : 1619915298585,
+    "stop" : 1619915298636,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d0ab6d09386d24b",
+  "name" : "Given the user is on the form page",
+  "time" : {
+    "start" : 1619915295225,
+    "stop" : 1619915297394,
+    "duration" : 2169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11d4c1092ef60d5",
+  "name" : "When the user clicks on the form button",
+  "time" : {
+    "start" : 1619915295295,
+    "stop" : 1619915297549,
+    "duration" : 2254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d84700404a9de9c0",
+  "name" : "When the user clicks on the home button",
+  "time" : {
+    "start" : 1619915297395,
+    "stop" : 1619915297798,
+    "duration" : 403
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

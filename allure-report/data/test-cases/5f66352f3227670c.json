@@ -1,0 +1,130 @@
+{
+  "uid" : "5f66352f3227670c",
+  "name" : "And this current page should display the company logo",
+  "fullName" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr..And this current page should display the company logo",
+  "historyId" : "5d88a730c408b2dbe3443dadde558c3b",
+  "time" : {
+    "start" : 1619915297832,
+    "stop" : 1619915297922,
+    "duration" : 90
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619915297834,
+        "stop" : 1619915297864,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "495008ffabc34db5",
+        "name" : "Request",
+        "source" : "495008ffabc34db5.json",
+        "type" : "application/json",
+        "size" : 52
+      }, {
+        "uid" : "7da572daca2eafb5",
+        "name" : "Response",
+        "source" : "7da572daca2eafb5.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1619915297870,
+        "stop" : 1619915297920,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4bbf1c5d96c73463",
+        "name" : "Request",
+        "source" : "4bbf1c5d96c73463.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "af8c6831c7ea766b",
+        "name" : "Response",
+        "source" : "af8c6831c7ea766b.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr."
+  }, {
+    "name" : "testClass",
+    "value" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr."
+  }, {
+    "name" : "testMethod",
+    "value" : "And this current page should display the company logo"
+  }, {
+    "name" : "package",
+    "value" : "The form button: Verify if the user is on the form page, can see some expected elements, and the form button has the active attr."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ce0d53c173bf63d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914919320,
+        "stop" : 1619914919413,
+        "duration" : 93
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f66352f3227670c.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

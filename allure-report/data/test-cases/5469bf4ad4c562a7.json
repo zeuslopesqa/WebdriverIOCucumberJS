@@ -1,0 +1,120 @@
+{
+  "uid" : "5469bf4ad4c562a7",
+  "name" : "And this current page should display the company logo",
+  "fullName" : "UI Testing button: Verify if the user is redirected to the home page.And this current page should display the company logo",
+  "historyId" : "e1322681eec7d49b201ba846c6adfe2b",
+  "time" : {
+    "start" : 1619914919149,
+    "stop" : 1619914919255,
+    "duration" : 106
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619914919151,
+        "stop" : 1619914919186,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb16d7e72700e76",
+        "name" : "Request",
+        "source" : "eb16d7e72700e76.json",
+        "type" : "application/json",
+        "size" : 52
+      }, {
+        "uid" : "a7224603733a18ff",
+        "name" : "Response",
+        "source" : "a7224603733a18ff.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1619914919192,
+        "stop" : 1619914919254,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8f7aac17bd2859e0",
+        "name" : "Request",
+        "source" : "8f7aac17bd2859e0.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "177c048853c836c4",
+        "name" : "Response",
+        "source" : "177c048853c836c4.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "UI Testing button: Verify if the user is redirected to the home page"
+  }, {
+    "name" : "testClass",
+    "value" : "UI Testing button: Verify if the user is redirected to the home page"
+  }, {
+    "name" : "testMethod",
+    "value" : "And this current page should display the company logo"
+  }, {
+    "name" : "package",
+    "value" : "UI Testing button: Verify if the user is redirected to the home page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5469bf4ad4c562a7.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

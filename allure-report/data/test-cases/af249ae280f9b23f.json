@@ -1,0 +1,145 @@
+{
+  "uid" : "af249ae280f9b23f",
+  "name" : "And the title has to be \"UI Testing Site\"",
+  "fullName" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed..And the title has to be \"UI Testing Site\"",
+  "historyId" : "654ca19f2f67ae4cfc618a9b881c4074",
+  "time" : {
+    "start" : 1619915300810,
+    "stop" : 1619915300817,
+    "duration" : 7
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1619915300811,
+        "stop" : 1619915300816,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "df744e4d80aaf67f",
+        "name" : "Response",
+        "source" : "df744e4d80aaf67f.json",
+        "type" : "application/json",
+        "size" : 17
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "testClass",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "testMethod",
+    "value" : "And the title has to be \"UI Testing Site\""
+  }, {
+    "name" : "package",
+    "value" : "Form page and the form: Verify if the user can see the elements of the form page, the form can be filled and sent as expected, and if the hello page is displayed."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a0eb04303c4b1527",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619915300185,
+        "stop" : 1619915300193,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "9017403b06887b47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619915299527,
+        "stop" : 1619915299534,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "87e71accde896900",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619915298565,
+        "stop" : 1619915298588,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "6bfa5eaacc646ce3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914922522,
+        "stop" : 1619914922531,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "8a53ff789336fa11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914921744,
+        "stop" : 1619914921753,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "4788557bf4d633cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914921037,
+        "stop" : 1619914921045,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "413e90214d9a3657",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914920120,
+        "stop" : 1619914920138,
+        "duration" : 18
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af249ae280f9b23f.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

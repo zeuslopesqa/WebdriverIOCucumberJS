@@ -1,0 +1,124 @@
+{
+  "uid" : "374eb57c285ed440",
+  "name" : "And the text \"This site is dedicated to perform some exercises and demonstrate automated web testing.\" is displayed in a <p> element",
+  "fullName" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr..And the text \"This site is dedicated to perform some exercises and demonstrate automated web testing.\" is displayed in a <p> element",
+  "historyId" : "3a1e1057b9a98dd7477132bd4a53d0a5",
+  "time" : {
+    "start" : 1619915298254,
+    "stop" : 1619915298415,
+    "duration" : 161
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619915298256,
+        "stop" : 1619915298330,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b48ce7a7a7c9b46a",
+        "name" : "Request",
+        "source" : "b48ce7a7a7c9b46a.json",
+        "type" : "application/json",
+        "size" : 55
+      }, {
+        "uid" : "66dd226e665458e0",
+        "name" : "Response",
+        "source" : "66dd226e665458e0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/df7f27f8-78ea-4757-9ed4-2ab0e12b2edc/text",
+      "time" : {
+        "start" : 1619915298336,
+        "stop" : 1619915298415,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d9312b9a8e979f8",
+        "name" : "Response",
+        "source" : "5d9312b9a8e979f8.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "testClass",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "testMethod",
+    "value" : "And the text \"This site is dedicated to perform some exercises and demonstrate automated web testing.\" is displayed in a <p> element"
+  }, {
+    "name" : "package",
+    "value" : "Home button: Verify if the user is on the home page, can see some expected elements, and the home button has the active attr."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f48198a340ac05d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619914919317,
+        "stop" : 1619914919440,
+        "duration" : 123
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "374eb57c285ed440.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}
