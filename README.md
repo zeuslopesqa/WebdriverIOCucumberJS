@@ -1,4 +1,4 @@
-<h1>This project was created to test the page http://uitest.duodecadits.com, using the following tools: Javascript, WebdriverIO, Gherkin Synthax(Cucumber), and Allure-reports.</h1>
+#This project was created to test the page http://uitest.duodecadits.com, using the following tools: Javascript, WebdriverIO, Gherkin Synthax(Cucumber), and Allure-reports.#
 
 
 ##📋 Pre-requisites
