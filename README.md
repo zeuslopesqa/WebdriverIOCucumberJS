@@ -7,7 +7,7 @@
 <h3>🚀Starting:</h3>
 <h6>1)Clone the repository</h6>
 
-<h6>2)Run the command _npm i_ in the main path of the folder.</h6>
+<h6>2)Run the command **npm i** in the main path of the folder.</h6>
 
 <h6>3)Open the terminal, access the main path of the folder, and use this command to run the test: *npx wdio run ./wdio.conf.js*</h6>
 
