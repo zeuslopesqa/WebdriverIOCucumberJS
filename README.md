@@ -7,7 +7,7 @@
 <h3>🚀Starting:</h3>
 <h6>1)Clone the repository</h6>
 
-<h6>2)Open the terminal(CMD, or an IDE's terminal) and run the command <i>npm i</i> within the main folder of the project.</h6>
+<h6>2)Open the terminal(CMD, or an IDE's terminal) and run the command > <i>npm i</i> < within the main folder of the project.</h6>
 
 <h6>3)Within the main folder of the project(CMD, or an IDE's terminal), and use this command to install the allure command reader: <i>npm install -g allure-commandline --save-dev</i></h6>
 
