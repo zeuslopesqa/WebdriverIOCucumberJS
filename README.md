@@ -1,10 +1,10 @@
-#This project was created to test the page http://uitest.duodecadits.com, using the following tools: Javascript, WebdriverIO, Gherkin Synthax(Cucumber), and Allure-reports.#
+<h2>This project was created to test the page http://uitest.duodecadits.com, using the following tools: Javascript, WebdriverIO, Gherkin Synthax(Cucumber), and Allure-reports.</h2>
 
 
-##📋 Pre-requisites
+<h3>📋 Pre-requisites</h3>
 You need to have the npm installed.
 
-##🚀 Starting
+<h3>🚀 Starting</h3>
 1)Clone the repository
 
 2)Run the command npm i in the main path of the folder.
