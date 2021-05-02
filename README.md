@@ -2,7 +2,7 @@
 
 
 <h3>📋Pre-requisites:</h3>
-You need to have the npm installed.
+<h6>You need to have the npm installed.</h6>
 
 <h3>🚀Starting:</h3>
 <h6>1)Clone the repository</h6>
