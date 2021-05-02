@@ -1,13 +1,13 @@
-<h2>This project was created to test the page http://uitest.duodecadits.com, using the following tools: Javascript, WebdriverIO, Gherkin Synthax(Cucumber), and Allure-reports.</h2>
+<h2>• This project was created to test the page http://uitest.duodecadits.com, using the following tools: Javascript, WebdriverIO, Gherkin Synthax(Cucumber), and Allure-reports.</h2>
 
 
-<h3>📋 Pre-requisites</h3>
+<h3>📋Pre-requisites:</h3>
 You need to have the npm installed.
 
-<h3>🚀 Starting</h3>
-1)Clone the repository
+<h3>🚀Starting:</h3>
+<h6>1)Clone the repository</h6>
 
-2)Run the command npm i in the main path of the folder.
+<h6>2)Run the command npm i in the main path of the folder.</h6>
 
 3)Open the terminal, access the main path of the folder, and use this command to run the test: npx wdio run ./wdio.conf.js
 
